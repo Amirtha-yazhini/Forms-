@@ -1,0 +1,115 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
+
+
+
+form{
+    display : flex;
+    flex-direction: column;
+    align-items: center;
+    
+    
+
+}
+select{
+    margin:3vh;
+    height: 5vh;
+    width: 50vw;
+    font-family: 'Montserrat', sans-serif;
+    font-size : 3vh;
+    border:none;
+}
+label{
+    font-family: 'Montserrat', sans-serif;
+    margin: 5vh;
+    font-size: 5vh;
+
+}
+
+input{
+    display: flex;
+    flex-direction: row;
+   
+    width:50vw;
+    height:3vw;
+    border: red;
+    font-size: 2vw;
+  font-family: 'Montserrat', sans-serif;
+
+  
+}
+
+input :focus {
+    color: black;
+    background-color: chartreuse;
+   
+  }
+
+button{
+    border : none;
+  font-family: 'Montserrat', sans-serif;
+    margin: 2vh;
+    padding: 2vh 5vw;
+    font-size: 2.5vh;
+
+
+
+}
+
+@media screen and (max-width: 400px) {
+    input{
+        margin: 2vw;
+        width: 90vw;
+        height : 10vw;
+        font-size: 7vw;
+        font-display: center;
+          
+    }
+    label{
+        font-size: 4vh;
+    }
+    select{
+        font-size: 5vw;
+    }
+    h1 {
+        font-family: 'Montserrat', sans-serif;
+        font-size: 8vw;
+        text-align: center;
+        
+      }
+    
+      h3{
+        font-family: 'Montserrat', sans-serif;
+        font-size: 5vw;
+        font-style: italic;
+        text-align: center;
+    
+    
+      }
+  
+  }
+.success-page{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 10vh;
+}
+
+h1 {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 4vw;
+    text-align: center;
+    
+  }
+
+  h3{
+    font-family: 'Montserrat', sans-serif;
+    font-size: 3vw;
+    font-style: italic;
+    text-align: center;
+
+
+  }
+
+ 
+
+ 
